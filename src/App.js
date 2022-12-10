@@ -2,6 +2,9 @@
 import './App.css';
 import Main from './components/Main/Main';
 import bg from '../src/Assets/bg.jpg'
+import { RouterProvider } from 'react-router-dom';
+import router from './Router/Routes';
+import { Toaster } from 'react-hot-toast';
 
 
 
@@ -10,7 +13,6 @@ function App() {
     <div
       className='object-cover min-h-screen w-full' style={{
         backgroundImage: `url(${bg}) `,
-        backgroundRepeat: 'no-repeat',
         backgroundSize: 'cover',
 
         backgroundAttachment: 'fixed'
@@ -18,7 +20,9 @@ function App() {
 
       }}
     >
+      <RouterProvider router={router}></RouterProvider>
       <Main ></Main>
+      <Toaster />
     </div>
   );
 }
