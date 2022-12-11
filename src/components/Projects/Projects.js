@@ -3,6 +3,7 @@ import './Projects.css'
 import project1 from '../../Assets/project1.png'
 import project2 from '../../Assets/project2.png'
 import project3 from '../../Assets/project3.png'
+import { Link } from 'react-router-dom';
 
 const Projects = () => {
     return (
@@ -25,30 +26,12 @@ const Projects = () => {
                                             <p className='mb-2'>𝐓𝐞𝐜𝐡𝐧𝐨𝐥𝐨𝐠𝐲 𝐔𝐬𝐞𝐝: HTML, CSS, Tailwinds,daisyUI,React.js, Firebase, React Router,Node.js, ExpressJS,
                                                 MongoDB</p>
                                             <div>
-                                                <a href="https://moto-vintage.web.app/" target="_blank" rel="noopener noreferrer">
+                                                <Link to='/motovintage'><button className="relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800">
+                                                    <span className="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
+                                                        View Details
+                                                    </span>
+                                                </button></Link>
 
-                                                    <button className="relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800">
-                                                        <span className="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
-                                                            Live Site
-                                                        </span>
-                                                    </button>
-                                                </a>
-                                                <a href="https://github.com/biplob2358/moto-vintage-client" target="_blank" rel="noopener noreferrer">
-
-                                                    <button className="relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800">
-                                                        <span className="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
-                                                            Client Site
-                                                        </span>
-                                                    </button>
-                                                </a>
-                                                <a href="https://github.com/biplob2358/moto-vintage-server" target="_blank" rel="noopener noreferrer">
-
-                                                    <button className="relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800">
-                                                        <span className="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
-                                                            Server Site
-                                                        </span>
-                                                    </button>
-                                                </a>
                                             </div>
                                         </div>
                                     </div>
@@ -64,30 +47,12 @@ const Projects = () => {
                                             <p className='mb-2'>𝐓𝐞𝐜𝐡𝐧𝐨𝐥𝐨𝐠𝐲 𝐔𝐬𝐞𝐝: HTML,CSS, Tailwinds,daisyUI, React.js, React Router, Firebase, Node.js, ExpressJS,
                                                 MongoDB.</p>
                                             <div>
-                                                <a href="https://shutter-up-cadac.web.app/" target="_blank" rel="noopener noreferrer">
+                                                <Link to='/shutterup'><button className="relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800">
+                                                    <span className="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
+                                                        View Details
+                                                    </span>
+                                                </button></Link>
 
-                                                    <button className="relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800">
-                                                        <span className="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
-                                                            Live Site
-                                                        </span>
-                                                    </button>
-                                                </a>
-                                                <a href="https://github.com/biplob2358/shutter-up-server" target="_blank" rel="noopener noreferrer">
-
-                                                    <button className="relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800">
-                                                        <span className="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
-                                                            Client Site
-                                                        </span>
-                                                    </button>
-                                                </a>
-                                                <a href="https://github.com/biplob2358/shutter-up-client" target="_blank" rel="noopener noreferrer">
-
-                                                    <button className="relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800">
-                                                        <span className="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
-                                                            Server Site
-                                                        </span>
-                                                    </button>
-                                                </a>
                                             </div>
                                         </div>
                                     </div>
@@ -101,30 +66,11 @@ const Projects = () => {
                                                 The user can get premium access but the user must be sign in.</p>
                                             <p className='mb-2'>𝐓𝐞𝐜𝐡𝐧𝐨𝐥𝐨𝐠𝐲 𝐔𝐬𝐞𝐝: HTML, CSS, Bootstrap, React. js, React Router, React Bootstrap, Firebase, Node. js, ExpressJS</p>
                                             <div>
-                                                <a href="https://course-guru-94acd.web.app/" target="_blank" rel="noopener noreferrer">
-
-                                                    <button className="relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800">
-                                                        <span className="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
-                                                            Live Site
-                                                        </span>
-                                                    </button>
-                                                </a>
-                                                <a href="https://github.com/biplob2358/course-guru-client" target="_blank" rel="noopener noreferrer">
-
-                                                    <button className="relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800">
-                                                        <span className="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
-                                                            Client Site
-                                                        </span>
-                                                    </button>
-                                                </a>
-                                                <a href="https://github.com/biplob2358/course-guru-server" target="_blank" rel="noopener noreferrer">
-
-                                                    <button className="relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800">
-                                                        <span className="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
-                                                            Sever Site
-                                                        </span>
-                                                    </button>
-                                                </a>
+                                                <Link to='/courseguru'><button className="relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800">
+                                                    <span className="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
+                                                        View Details
+                                                    </span>
+                                                </button></Link>
 
                                             </div>
                                         </div>
