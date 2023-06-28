@@ -1,5 +1,4 @@
 import { createBrowserRouter } from "react-router-dom";
-import Blogs from "../components/Blogs/Blogs";
 import Home from "../components/Home/Home";
 import Main from "../components/Main/Main";
 import CourseGuru from "../components/Projects/MotoVintage/CourseGuru";
@@ -14,10 +13,6 @@ const router = createBrowserRouter([
             {
                 path: '/',
                 element: <Home></Home>
-            },
-            {
-                path: '/blogs',
-                element: <Blogs></Blogs>
             },
             {
                 path: '/motovintage',

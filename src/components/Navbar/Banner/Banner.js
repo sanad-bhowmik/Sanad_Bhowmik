@@ -36,10 +36,10 @@ const Banner = () => {
                             </button>
                         </a>
                         <div className="arrow">
-                                        <span></span>
-                                        <span></span>
-                                        <span></span>
-                                    </div>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
                     </div>
                 </div>
             </div>

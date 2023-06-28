@@ -11,6 +11,7 @@ import bootstrap from '../../Assets/icons/bootstrap.png';
 import html from '../../Assets/icons/html.png';
 import css from '../../Assets/icons/css.png';
 import jwt from '../../Assets/icons/jwt.png';
+import './Skill.css'
 
 const Skills = () => {
   return (

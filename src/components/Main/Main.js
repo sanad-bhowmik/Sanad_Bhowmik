@@ -11,7 +11,6 @@ import Projects from '../Projects/Projects';
 const Main = () => {
     return (
         <div  >
-
             <Outlet></Outlet>
         </div>
     );

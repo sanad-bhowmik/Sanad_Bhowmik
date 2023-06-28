@@ -21,16 +21,17 @@ const ShutterUp = () => {
             </section>
             <div className="card hero container w-full mx-auto text-white shadow-xl">
                 <div className="card-body">
-                    <h2 className="card-title text-4xl mb-4">Shutter Up</h2>
-                    <p className='flex'> <span className='mr-2'><FaHandPointRight></FaHandPointRight> </span> <span>Shutter Up is personal photographar Website</span></p>
-                    <p className='flex'> <span className='mr-2'><FaHandPointRight></FaHandPointRight> </span> <span>There are lot of service for photoshoot</span></p>
-                    <p className='flex'> <span className='mr-2'><FaHandPointRight></FaHandPointRight> </span> <span>Shutter Up is fully responsive on mobile,tablet and pc</span></p>
-                    <p className='flex'> <span className='mr-2'><FaHandPointRight></FaHandPointRight> </span> <span>In Blogs there are 4 question which is also responsive</span></p>
-                    <p className='flex'> <span className='mr-2'><FaHandPointRight></FaHandPointRight> </span> <span>Every user can see the review and User also can write his/her review</span></p>
-                    <p className='flex'> <span className='mr-2'><FaHandPointRight></FaHandPointRight> </span> <span>User can edit and delete his/her own review </span></p>
-                    <p className='mb-2 text-xl'>𝐓𝐞𝐜𝐡𝐧𝐨𝐥𝐨𝐠𝐲 𝐔𝐬𝐞𝐝: HTML, CSS, Bootstrap, React. js, React Router, React Bootstrap, Firebase, Node. js, ExpressJS</p>
+                    <h2 className="card-title text-4xl mb-4">Sangeet Sadhana</h2>
+                    <p className='flex'> <span className='mr-2'><FaHandPointRight></FaHandPointRight> </span> <span>Sangeet Sadhana is Musical School Website</span></p>
+                    <p className='flex'> <span className='mr-2'><FaHandPointRight></FaHandPointRight> </span> <span>User can register with their name, email, password, and optional information like photo URL, gender, phone number, and address.</span></p>
+                    <p className='flex'> <span className='mr-2'><FaHandPointRight></FaHandPointRight> </span> <span>Separate dashboards for students, instructors, and admins.</span></p>
+                    <p className='flex'> <span className='mr-2'><FaHandPointRight></FaHandPointRight> </span> <span>Students can view and manage their selected and enrolled classes, make payments, and view payment history.</span></p>
+                    <p className='flex'> <span className='mr-2'><FaHandPointRight></FaHandPointRight> </span> <span>Instructors can add classes, manage their classes, view enrolled students, and receive feedback from admins.</span></p>
+                    <p className='flex'> <span className='mr-2'><FaHandPointRight></FaHandPointRight> </span> <span>Admins can manage classes, users, approve/deny classes, and provide feedback to instructors.</span></p>
+                    <p className='mb-2 text-xl'>𝐓𝐞𝐜𝐡𝐧𝐨𝐥𝐨𝐠𝐲 𝐔𝐬𝐞𝐝: HTML, CSS, JavaScript, Tailwind, Daisy UI, React.js, React router, firebase, Nodejs,
+                        Mongodb,stripeJS.</p>
                     <div className="card-actions">
-                        <a href="https://shutter-up-cadac.web.app/" target="_blank" rel="noopener noreferrer">
+                        <a href="https://musicschool-5571d.web.app/" target="_blank" rel="noopener noreferrer">
 
                             <button className="relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800">
                                 <span className="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
@@ -38,7 +39,7 @@ const ShutterUp = () => {
                                 </span>
                             </button>
                         </a>
-                        <a href="https://github.com/biplob2358/shutter-up-server" target="_blank" rel="noopener noreferrer">
+                        <a href="https://github.com/sanad-bhowmik/SangeetSadhana-client" target="_blank" rel="noopener noreferrer">
 
                             <button className="relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800">
                                 <span className="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
@@ -46,7 +47,7 @@ const ShutterUp = () => {
                                 </span>
                             </button>
                         </a>
-                        <a href="https://github.com/biplob2358/shutter-up-client" target="_blank" rel="noopener noreferrer">
+                        <a href="https://github.com/sanad-bhowmik/SangeetSadhana-server" target="_blank" rel="noopener noreferrer">
 
                             <button className="relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800">
                                 <span className="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
