@@ -16,8 +16,6 @@ function App() {
         backgroundSize: 'cover',
 
         backgroundAttachment: 'fixed'
-
-
       }}
     >
       <RouterProvider router={router}></RouterProvider>

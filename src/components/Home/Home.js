@@ -7,6 +7,7 @@ import Myself from '../Navbar/Banner/Myself/Myself';
 import Navbar from '../Navbar/Navbar';
 import Projects from '../Projects/Projects';
 import Skills from '../Skills/Skills';
+import Experence from '../Experence/Experence';
 
 const Home = () => {
     return (
@@ -15,6 +16,7 @@ const Home = () => {
             <Navbar></Navbar>
             <Banner></Banner>
             <Myself></Myself>
+            <Experence/>
             <Skills></Skills>
             <Projects></Projects>
             <Contact></Contact>

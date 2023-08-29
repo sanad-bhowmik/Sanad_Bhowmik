@@ -17,7 +17,7 @@ const Skills = () => {
   return (
     <div data-aos="zoom-in">
       <div className='mb-12 hero container w-full mx-auto'>
-        <div className="min-h-full py-32 text-white">
+        <div cc>
           <h1 className="text-6xl font-bold text-center heading mb-4">
             My <span className='title'>Skills</span>
           </h1>
