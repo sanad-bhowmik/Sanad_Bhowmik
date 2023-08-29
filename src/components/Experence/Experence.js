@@ -1,6 +1,6 @@
 import React from 'react';
-import './Experence.css'
-
+import './Experence.css';
+import logo from '../../Assets/experence.png'
 const Experence = () => {
     return (
         <div data-aos="zoom-in" className='mb-12 hero container w-full mx-auto'>
@@ -11,7 +11,7 @@ const Experence = () => {
                 <section className="container">
                     <section className="card__container">
                         <div className="card__bx card__1">
-                            <div className="card__data">
+                            <div className="card__data first">
                                 <div className="card__icon">
                                     <div className="card__icon-bx">
                                         <img src="https://playon24.com.bd/img/logo.png" alt="" />
@@ -19,7 +19,7 @@ const Experence = () => {
                                 </div>
                                 <div className="card__content">
                                     <h3 id='title'>Software Engineer</h3>
-                                    <h4 id='company'><a href="https://playon24.com.bd/" target='_blank'>PlayOn24 || 2023</a></h4>
+                                    <h4 id='company'><a href="https://playon24.com.bd/" target='_blank' style={{color: 'white'}}>PlayOn24 || 2023</a></h4>
                                     <h4 id='company'> Mohammadpur, Dhaka</h4>
                                 </div>
                             </div>
