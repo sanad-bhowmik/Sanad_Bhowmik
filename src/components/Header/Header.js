@@ -15,7 +15,7 @@ const Header = () => {
                             <li><a a href='/'>Home</a></li>
                         </ul>
                     </div>
-                    <Link to='/' className='btn btn-ghost normal-case text-xl'><img className='h-12 rounded-xl' src={logo} alt="" /></Link>
+                    {/* <Link to='/' className='btn btn-ghost normal-case text-xl'><img className='h-12 rounded-xl' src={logo} alt="" /></Link> */}
                 </div>
                 <div className="navbar-end hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
