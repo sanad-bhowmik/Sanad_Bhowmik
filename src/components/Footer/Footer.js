@@ -8,8 +8,7 @@ const Footer = () => {
             <footer className="hero text-white container w-full mx-auto mt-10">
                 <div className="container flex flex-col p-4 mx-auto md:p-8 lg:flex-row divide-gray-400">
                     <ul className="self-center py-6 space-y-4 text-center sm:flex sm:space-y-0 sm:justify-around sm:space-x-4 lg:flex-1 lg:justify-start">
-                        <img className='w-12 rounded-xl' src={logo} alt="" />
-                        <p className='pt-4'>Copyright © 2023 - Sanad Bhowmik</p>
+                        <p className='pt-4'>Copyright © 2024 - Sanad Bhowmik</p>
                     </ul>
                     <div className="flex flex-col justify-center pt-6 lg:pt-0">
                         <div className="flex justify-center space-x-4">
