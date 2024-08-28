@@ -36,7 +36,8 @@ const Projects = () => {
                         for customers across the country.
                       </p>
                       <p className="mb-2">
-                        𝐓𝐞𝐜𝐡𝐧𝐨𝐥𝐨𝐠𝐲 𝐔𝐬𝐞𝐝: PHP, Laravel, HTML, CSS, JavaScript, Tailwind, Livewire, SQL.
+                        𝐓𝐞𝐜𝐡𝐧𝐨𝐥𝐨𝐠𝐲 𝐔𝐬𝐞𝐝: PHP, Laravel, HTML, CSS, JavaScript,
+                        Tailwind, Livewire, SQL.
                       </p>
                       <div>
                         <Link to="/motovintage">
@@ -59,16 +60,16 @@ const Projects = () => {
                       className="h-80 dark:bg-gray-500 aspect-video"
                     />
                     <div className="flex flex-col justify-center flex-1 p-6 dark:bg-gray-900">
-                      <h3 className="text-3xl font-bold">Sangeet Sadhana</h3>
+                      <h3 className="text-3xl font-bold">F & S BD</h3>
                       <p className="my-6 dark:text-gray-400">
-                        Music school where user can book class and also see the
-                        instructor of the class. There are different dashboard
-                        for admin, students, instructors
+                        The website "fnsbd.shop" is an e-commerce platform
+                        offering a wide range of fashion, lifestyle, and other
+                        consumer products, providing customers with an easy and
+                        convenient online shopping experience.
                       </p>
                       <p className="mb-2">
-                        𝐓𝐞𝐜𝐡𝐧𝐨𝐥𝐨𝐠𝐲 𝐔𝐬𝐞𝐝:HTML, CSS, JavaScript, Tailwind, Daisy
-                        UI, React.js, React router, firebase, Nodejs, Mongodb,
-                        stripeJS.
+                        𝐓𝐞𝐜𝐡𝐧𝐨𝐥𝐨𝐠𝐲 𝐔𝐬𝐞𝐝: PHP, Laravel, HTML, CSS, JavaScript,
+                        Tailwind, Livewire, SQL.
                       </p>
                       <div>
                         <Link to="/shutterup">
@@ -91,16 +92,17 @@ const Projects = () => {
                       className="h-80 dark:bg-gray-500 aspect-video"
                     />
                     <div className="flex flex-col justify-center flex-1 p-6 dark:bg-gray-900">
-                      <h3 className="text-3xl font-bold">Toylandia</h3>
+                      <h3 className="text-3xl font-bold">All House Work's</h3>
                       <p className="my-6 dark:text-gray-400">
-                        A visually Stunning website that enchants toy
-                        enthusiasts with its captivating design. Explore a vast
-                        collection of toys and personalized features. The user
-                        can get premium access but the user must be sign in.
+                        Ahw.playon24.com.bd is a specialized platform offering a
+                        comprehensive suite of services, including advanced
+                        digital solutions, interactive tools, and tailored
+                        support for businesses seeking to enhance their online
+                        presence and operational efficiency.
                       </p>
                       <p className="mb-2">
-                        𝐓𝐞𝐜𝐡𝐧𝐨𝐥𝐨𝐠𝐲 𝐔𝐬𝐞𝐝: HTML, CSS, JavaScript, Tailwind, Daisy
-                        UI, React.js, React router, firebase, Nodejs, Mongodb.
+                        𝐓𝐞𝐜𝐡𝐧𝐨𝐥𝐨𝐠𝐲 𝐔𝐬𝐞𝐝: PHP, Laravel, HTML, CSS, JavaScript,
+                        Tailwind, Livewire, SQL.
                       </p>
                       <div>
                         <Link to="/courseguru">
