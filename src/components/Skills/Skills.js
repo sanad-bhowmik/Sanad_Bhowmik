@@ -14,6 +14,7 @@ import jwt from "../../Assets/icons/jwt.png";
 import laravel from "../../Assets/icons/laravel.png";
 import php from "../../Assets/icons/php.png";
 import livewire from "../../Assets/icons/livewire.png";
+import sql from "../../Assets/icons/sql.png";
 import "./Skill.css";
 
 const Skills = () => {
@@ -48,7 +49,7 @@ const Skills = () => {
                 <img
                   className="rounded-xl h-32 pt-10"
                   src={php}
-                  alt="Node.js"
+                  alt="Php"
                 />
               </figure>
               <div className="card-body items-center text-center">
@@ -63,7 +64,7 @@ const Skills = () => {
                 <img
                   className="rounded-xl h-32 pt-10"
                   src={livewire}
-                  alt="Node.js"
+                  alt="Livewire"
                 />
               </figure>
               <div className="card-body items-center text-center">
@@ -220,6 +221,22 @@ const Skills = () => {
               </figure>
               <div className="card-body items-center text-center">
                 <h2 className="card-title text-center">Node.js</h2>
+              </div>
+            </div>
+
+            <div
+              className="card card-compact w-64 border shadow-xl hover:bg-white hover:text-black transition-colors duration-500 animate-slide-in"
+              style={{ animationDelay: "100ms" }}
+            >
+              <figure>
+                <img
+                  className="rounded-xl h-32 pt-10"
+                  src={sql}
+                  alt="Sql"
+                />
+              </figure>
+              <div className="card-body items-center text-center">
+                <h2 className="card-title text-center">SQL</h2>
               </div>
             </div>
           </div>
