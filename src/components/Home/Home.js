@@ -8,6 +8,7 @@ import Navbar from '../Navbar/Navbar';
 import Projects from '../Projects/Projects';
 import Skills from '../Skills/Skills';
 import Experence from '../Experence/Experence';
+import Tools from '../Tools/Tools';
 
 const Home = () => {
     return (
@@ -18,6 +19,7 @@ const Home = () => {
             <Myself></Myself>
             <Experence/>
             <Skills></Skills>
+            <Tools/>
             <Projects></Projects>
             <Contact></Contact>
             <Footer></Footer>

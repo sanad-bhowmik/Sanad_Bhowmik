@@ -23,16 +23,17 @@ const Myself = () => {
               <h1 className="text-6xl font-bold heading">
                 LET ME <span className="title">INTRODUCE</span> MYSELF
               </h1>
-              <p className="py-6  text-xl ">
-                I'm passionate MERN Stack web developer having an experience of
-                web applications. <br />
-                My field of Interest's are building new Web Technologies and
-                Products and also in areas related to Artificial Intelligence.
-                <br />
-                Whenever possible, I also apply my passion for developing
-                products with Node.js, ExpressJS,MongoDB and Modern Javascript
-                Library and Frameworks like React.js
+              <p className="py-6 text-xl">
+                I'm a passionate PHP Laravel developer with extensive experience
+                in building dynamic and robust web applications. <br />
+                My areas of interest include developing scalable and secure web
+                solutions, and I’m particularly enthusiastic about working with
+                the Laravel framework and its ecosystem. <br />
+                Whenever possible, I apply my expertise in crafting efficient
+                and maintainable code using Laravel, along with modern front-end
+                technologies and tools.
               </p>
+
               <div className="text-center">
                 <h3 className="text-3xl font-bold">FIND ME ON</h3>
                 <p>

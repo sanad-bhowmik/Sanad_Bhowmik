@@ -24,7 +24,7 @@ const Contact = () => {
     <div>
       <div className='mt-10 container w-full mx-auto' id='contact'>
         <div className="text-white container w-full mx-auto">
-          <div className="hero bg-base-200">
+          <div className="hero">
             <section className="dark:bg-gray-800 dark:text-gray-100">
               <div className="container grid gap-6 mx-auto text-center lg:grid-cols-2 xl:grid-cols-5">
                 <img src={email} alt="" className="object-cover mt-10 p-8 w-full rounded-md xl:col-span-3 dark:bg-gray-500" />

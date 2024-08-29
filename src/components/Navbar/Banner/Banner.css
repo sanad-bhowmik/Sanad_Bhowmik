@@ -1,59 +1,58 @@
-.hero{
-    background: rgba(250, 250, 250, 0.25);
-box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-backdrop-filter: blur( 4px );
--webkit-backdrop-filter: blur( 3px );
-border-radius: 10px;
-border: 1px solid rgba( 255, 255, 255, 0.18 );
-
+.hero {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1228%26quot%3b)' fill='none'%3e%3cpath d='M272.2007961225437 99.05765511160853L352.1898485134165 92.05951982122593 301.6981193824062-24.424991119891985z' fill='rgba(255%2c 255%2c 255%2c 0.11)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M692.43 462.28 a109.85 109.85 0 1 0 219.7 0 a109.85 109.85 0 1 0 -219.7 0z' fill='rgba(255%2c 255%2c 255%2c 0.11)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M309.1160072100847 372.55619513238975L290.23506766435906 461.38403181445324 379.06290434642256 480.2649713601789 397.9438438921482 391.4371346781154z' fill='rgba(255%2c 255%2c 255%2c 0.11)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M646.6496354620888 34.78796749198421L562.1832196572274-22.18534935554856 589.6763186145561 119.25438329684565z' fill='rgba(255%2c 255%2c 255%2c 0.11)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M877.8509153497317 117.33330904034102L725.452159951855 146.95662622678384 907.4742325361746 269.73206443821766z' fill='rgba(255%2c 255%2c 255%2c 0.11)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M36.99 453.11 a125.95 125.95 0 1 0 251.9 0 a125.95 125.95 0 1 0 -251.9 0z' fill='rgba(255%2c 255%2c 255%2c 0.11)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1430.421%2c347.03C1477.688%2c348.3%2c1532.645%2c347.872%2c1556.608%2c307.11C1580.747%2c266.049%2c1556.605%2c216.335%2c1530.779%2c176.314C1507.643%2c140.462%2c1473.034%2c113.757%2c1430.421%2c111.566C1383.562%2c109.157%2c1334.82%2c124.895%2c1310.442%2c164.986C1285.246%2c206.422%2c1288.768%2c260.14%2c1315.455%2c300.632C1339.829%2c337.614%2c1386.145%2c345.841%2c1430.421%2c347.03' fill='rgba(255%2c 255%2c 255%2c 0.11)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1179.7198166611668 42.253145117065856L1042.4808483062227 61.54082428336482 1061.7685274725216 198.77979263830892 1199.0074958274656 179.49211347200995z' fill='rgba(255%2c 255%2c 255%2c 0.11)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M185.58294883551534 146.36235705451486L180.71435642864793 282.07230658604453 286.484097658487 228.17993164300137z' fill='rgba(255%2c 255%2c 255%2c 0.11)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1103.5218543602755-60.58789031182468L1063.5473494984083 55.5065015377149 1179.641741347948 95.48100639958201 1219.616246209815-20.613385449957555z' fill='rgba(255%2c 255%2c 255%2c 0.11)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M360.136%2c22.372C377.051%2c23.357%2c390.188%2c9.307%2c398.568%2c-5.42C406.838%2c-19.954%2c411.077%2c-37.714%2c402.487%2c-52.061C394.074%2c-66.114%2c376.504%2c-70.211%2c360.136%2c-69.613C344.944%2c-69.058%2c329.863%2c-62.625%2c322.828%2c-49.149C316.198%2c-36.448%2c322.121%2c-22.19%2c328.747%2c-9.487C336.137%2c4.679%2c344.185%2c21.443%2c360.136%2c22.372' fill='rgba(255%2c 255%2c 255%2c 0.11)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M559.087%2c299.99C580.662%2c300.968%2c600.414%2c288.653%2c611.716%2c270.249C623.603%2c250.893%2c627.939%2c226.338%2c616.298%2c206.833C604.884%2c187.708%2c581.346%2c181.318%2c559.087%2c182.067C538.271%2c182.767%2c518.026%2c192.119%2c508.175%2c210.47C498.767%2c227.994%2c504.29%2c248.535%2c514.123%2c265.824C524.097%2c283.361%2c538.933%2c299.076%2c559.087%2c299.99' fill='rgba(255%2c 255%2c 255%2c 0.11)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M749.0455279599947 396.0901679082466L749.0455279599947 561.861560125325 914.8169201770731 561.8615601253249 914.8169201770731 396.09016790824654z' fill='rgba(255%2c 255%2c 255%2c 0.11)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M-45.490749851331216 7.779810763384589L-52.2654880580796 104.66308083468815 96.44678615224993 66.38355310915892z' fill='rgba(255%2c 255%2c 255%2c 0.11)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1051.0105355279582-35.82101049397194L1152.6025982630429 115.10548180536797 1224.8045138589648-26.598756260784498z' fill='rgba(255%2c 255%2c 255%2c 0.11)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1128.5866185532298 303.9212281927943L1017.6052338085458 350.90525680633726 1100.6228624048454 415.7657367752992z' fill='rgba(255%2c 255%2c 255%2c 0.11)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M940.717%2c289.928C961.377%2c289.984%2c981.82%2c279.72%2c990.876%2c261.151C999.135%2c244.216%2c990.227%2c225.329%2c979.91%2c209.563C970.809%2c195.655%2c957.337%2c184.697%2c940.717%2c184.499C923.774%2c184.297%2c909.116%2c194.408%2c899.876%2c208.611C889.547%2c224.487%2c882.523%2c243.957%2c891.024%2c260.882C900.254%2c279.258%2c920.153%2c289.873%2c940.717%2c289.928' fill='rgba(255%2c 255%2c 255%2c 0.11)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M897.18 175.2 a132.41 132.41 0 1 0 264.82 0 a132.41 132.41 0 1 0 -264.82 0z' fill='rgba(255%2c 255%2c 255%2c 0.11)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1325.5377913001855 140.02451774712034L1218.8312588693789 232.78309122757764 1311.5898323498361 339.4896236583843 1418.2963647806428 246.731050177927z' fill='rgba(255%2c 255%2c 255%2c 0.11)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M124.66 205.05 a171.54 171.54 0 1 0 343.08 0 a171.54 171.54 0 1 0 -343.08 0z' fill='rgba(255%2c 255%2c 255%2c 0.11)' class='triangle-float3'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1228'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(3px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
 .heading {
-    font-family: 'Roboto Condensed', sans-serif;
-    
-}.title{
-    color: rgb(5, 171, 237);
+  font-family: "Roboto Condensed", sans-serif;
+}
+.title {
+  color: rgb(5, 171, 237);
 }
 
 .arrow {
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    transform: rotate(90deg);
-    cursor: pointer;
-    margin-right: 72%;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transform: rotate(90deg);
+  cursor: pointer;
+  margin-right: 72%;
 }
 
 .arrow span {
-    display: block;
-    width: 1.5vw;
-    height: 1.5vw;
-    border-bottom: 5px solid white;
-    border-right: 5px solid white;
-    transform: rotate(45deg);
-    margin: -10px;
-    animation: animate 2s infinite;
+  display: block;
+  width: 1.5vw;
+  height: 1.5vw;
+  border-bottom: 5px solid white;
+  border-right: 5px solid white;
+  transform: rotate(45deg);
+  margin: -10px;
+  animation: animate 2s infinite;
 }
 
 .arrow span:nth-child(2) {
-    animation-delay: -0.2s;
+  animation-delay: -0.2s;
 }
 
 .arrow span:nth-child(3) {
-    animation-delay: -0.4s;
+  animation-delay: -0.4s;
 }
 
 @keyframes animate {
-    0% {
-        opacity: 0;
-        transform: rotate(45deg) translate(-20px, -20px);
-    }
-    50% {
-        opacity: 1;
-    }
-    100% {
-        opacity: 0;
-        transform: rotate(45deg) translate(20px, 20px);
-    }
+  0% {
+    opacity: 0;
+    transform: rotate(45deg) translate(-20px, -20px);
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: rotate(45deg) translate(20px, 20px);
+  }
 }
