@@ -12,9 +12,8 @@ function App() {
     <div
       className='min-h-screen w-full' 
       style={{
-        backgroundImage: 'linear-gradient( 181deg,  rgba(2,0,97,1) 15%, rgba(97,149,219,1) 158.5% )',
-        backgroundSize: 'cover',
-        backgroundAttachment: 'fixed'
+        backgroundImage: 'linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%)',
+      
       }}
     >
       <RouterProvider router={router}></RouterProvider>
